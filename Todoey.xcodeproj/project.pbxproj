@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F3DB6EC203CED7600F49DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DB6EB203CED7600F49DD8 /* AppDelegate.swift */; };
-		3F3DB6EE203CED7600F49DD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DB6ED203CED7600F49DD8 /* ViewController.swift */; };
+		3F3DB6EE203CED7600F49DD8 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DB6ED203CED7600F49DD8 /* TodoListViewController.swift */; };
 		3F3DB6F1203CED7600F49DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3DB6EF203CED7600F49DD8 /* Main.storyboard */; };
 		3F3DB6F3203CED7600F49DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3DB6F2203CED7600F49DD8 /* Assets.xcassets */; };
 		3F3DB6F6203CED7600F49DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3DB6F4203CED7600F49DD8 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		3F3DB6E8203CED7600F49DD8 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3DB6EB203CED7600F49DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F3DB6ED203CED7600F49DD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F3DB6ED203CED7600F49DD8 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		3F3DB6F0203CED7600F49DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F3DB6F2203CED7600F49DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3DB6F5203CED7600F49DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				3F3DB6EB203CED7600F49DD8 /* AppDelegate.swift */,
-				3F3DB6ED203CED7600F49DD8 /* ViewController.swift */,
+				3F3DB6ED203CED7600F49DD8 /* TodoListViewController.swift */,
 				3F3DB6EF203CED7600F49DD8 /* Main.storyboard */,
 				3F3DB6F2203CED7600F49DD8 /* Assets.xcassets */,
 				3F3DB6F4203CED7600F49DD8 /* LaunchScreen.storyboard */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3DB6EE203CED7600F49DD8 /* ViewController.swift in Sources */,
+				3F3DB6EE203CED7600F49DD8 /* TodoListViewController.swift in Sources */,
 				3F3DB6EC203CED7600F49DD8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,10 +275,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B73CELHTEK;
+				DEVELOPMENT_TEAM = EE6SHLJ6P3;
 				INFOPLIST_FILE = Todoey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.popgig.Todoey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.popgig.TodoeyAlex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,10 +290,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B73CELHTEK;
+				DEVELOPMENT_TEAM = EE6SHLJ6P3;
 				INFOPLIST_FILE = Todoey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.popgig.Todoey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.popgig.TodoeyAlex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
